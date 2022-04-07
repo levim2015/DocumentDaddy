@@ -1,0 +1,12 @@
+Front end: 
+  - Minimal UI, needs mock nav bar, dropzone for file(s)
+  - Will display return from server on the page in a list
+
+Back end:
+  - Determine DB (As of now I dont see why we can't go Cosmos or Mongo)
+  - Set up single endpoint '/api/fileDump' (or whatever)
+    - End point will handle Azure service of extracting data from the image
+      then storing that data, then sending it back to the client as a JSON obj
+ 
+For POC/MVP I dont feel we need to go crazy with Auth or security, lets just 
+see for right now if this is easily configured and how the data is stored & returned
